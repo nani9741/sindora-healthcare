@@ -74,6 +74,34 @@
     display:block;
     margin-left:-95px;
 }
+@media (max-width: 768px) {
+
+    .nav-container{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .logo{
+        justify-content: center;
+    }
+
+    .hero-content{
+        flex-direction: column;
+    }
+
+    .hero-left,
+    .hero-right{
+        width: 100%;
+    }
+
+    .contact-wrapper{
+        flex-direction: column;
+    }
+
+    .services-grid{
+        grid-template-columns: 1fr;
+    }
+}
 
 @media (max-width:768px){
     .navbar-title{
