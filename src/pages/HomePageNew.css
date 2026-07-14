@@ -99,6 +99,17 @@
     color:#FF4B5C;
 
 }
+.navbar-title{
+    height: 55px;
+    width: auto;
+    object-fit: contain;
+}
+
+@media (max-width:768px){
+    .navbar-title{
+        height: 42px;
+    }
+}
 
 /* ================= MENU ================= */
 
@@ -2259,15 +2270,15 @@
 }
 .contact-grid{
     display:grid;
-    grid-template-columns:repeat(2, 280px);
-    grid-auto-rows:280px;
+    grid-template-columns:repeat(2,minmax(0,1fr));
     gap:28px;
-    justify-content:start;
+    width:100%;
 }
 
 .info-card{
-    width:280px;
-    height:280px;
+    width:100%;
+    min-height:280px;
+    height:auto;
 
     display:flex;
     flex-direction:column;
@@ -2582,4 +2593,44 @@ body,
 }
 h1,h2,h3,h4,h5,h6{
     font-family:'Manrope',sans-serif !important;
+}
+@media (max-width:768px){
+
+    .contact-wrapper{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .contact-left{
+        grid-template-columns:1fr;
+        justify-items:center;
+    }
+
+    .contact-right{
+        width:100%;
+    }
+
+    .contact-right img{
+        width:100%;
+        max-width:350px;
+        height:auto;
+        display:block;
+    }
+
+    .info-card{
+        width:100%;
+        max-width:320px;
+        height:auto;
+    }
+
+    .consult-btn{
+        width:100%;
+        max-width:320px;
+    }
+
+}
+html,
+body,
+#root{
+    overflow-x:hidden;
 }

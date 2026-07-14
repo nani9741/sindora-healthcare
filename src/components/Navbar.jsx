@@ -1,4 +1,5 @@
 import logo from "../assets/logos/Sindora Final Logo (1).png";
+import sindoraTitle from "../assets/logos/Sindora Title.png";
 
 function Navbar() {
     return (
@@ -9,9 +10,13 @@ function Navbar() {
                 <a href="#" className="logo">
 
                     <img src={logo} alt="Sindora" />
+                    <img
+                        src={sindoraTitle}
+                        alt="Sindora"
+                        className="navbar-title"
+                    />
 
                     <div className="logo-text">
-                        <h2>Sindora</h2>
                         <span>HEALTHCARE SERVICES</span>
                     </div>
 

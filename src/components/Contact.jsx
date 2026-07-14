@@ -83,7 +83,7 @@ function Contact() {
                         <div className="info-card">
                             <div className="info-icon">📞</div>
                             <h3>Phone</h3>
-                            <p>+91 8328499484</p>
+                            <p>+91 08577-293718</p>
                         </div>
 
                         <div className="info-card">

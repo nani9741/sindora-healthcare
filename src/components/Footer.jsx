@@ -67,7 +67,7 @@ function Footer() {
 
                     <div className="footer-contact-item">
                         <span>📞</span>
-                        <p>+91 8328499484</p>
+                        <p>+91 08577-293718</p>
                     </div>
 
                     <div className="footer-contact-item">
