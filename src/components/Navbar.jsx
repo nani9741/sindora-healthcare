@@ -8,18 +8,18 @@ function Navbar() {
             <div className="nav-container">
 
                 <a href="#" className="logo">
+                    <img src={logo} className="logo-icon" />
 
-                    <img src={logo} alt="Sindora" />
-                    <img
-                        src={sindoraTitle}
-                        alt="Sindora"
-                        className="navbar-title"
-                    />
+                    <div className="logo-content">
+                        <img
+                            src={sindoraTitle}
+                            className="navbar-title"
+                        />
 
-                    <div className="logo-text">
-                        <span>HEALTHCARE SERVICES</span>
+                        <span className="logo-text">
+            HEALTHCARE SERVICES
+        </span>
                     </div>
-
                 </a>
 
                 <ul className="nav-links">
